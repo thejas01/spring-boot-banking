@@ -14,10 +14,7 @@ server:
   port: 8083
 
 security:
-  oauth2:
-    resourceserver:
-      jwt:
-        issuer-uri: https://your-oauth2-provider.com
-        user:
-    name: admin
-    password: admin123
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://your-auth-provider.com
